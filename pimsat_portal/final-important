@@ -1,0 +1,136 @@
+SECTION A (Atempt any 6 from 8,  Marks: 5 marks x 6 question =30)
+--------------
+Q1. How to Connect database and check connection is established or not?
+
+$server_name	=	"localhost";
+$user_name		=	"root";
+$password		=	"";
+$db_name		=	"pimsat";
+
+$mysqli=mysqli_connect($server_name, $user_name, $password, $db_name);
+
+if(!$mysqli){
+
+	echo "Could not connect to database";
+}else{
+	
+	echo "data base is connected";
+}
+
+-------------------------------------------------------------------------------------
+
+Q.2 What is session and how to start and destroy the session.
+
+Defination :......................
+................................................
+
+Session Start :
+----------------
+	session_start();
+
+
+Destory Session:
+-----------------
+
+	session_destory();
+----------------------------------------------------------------------------------------
+
+Q.3 Why we use error reporting function in php?
+ 	For Hide the Errors................................
+ 	...................................................
+	error_reporting(0);
+-------------------------------------------------------------------------------
+
+Q.4 How to include file in PHP?
+
+We include file in PHP by using include_once(), include(), require_once() function  and this function take one compulsory parameter.
+
+Example : 
+
+<?php 
+
+	include_once("header.php");
+
+?>
+
+------------------------------------------------------------------------------
+Q.5 How to redirect your page?
+
+ We Can redirect in two ways:
+
+ By Using PHP:
+---------------
+ header("dashboard.php");  
+
+By Using JavaScript:
+--------------------
+<script>window.location="dashboard.php";</script>
+
+
+-----------------------------------------------------------------------------------
+
+Q.6 Give the example following string function
+
+i) ucfirst()
+
+ii) ucwords()
+
+iii) strtolower()
+
+iv) strtoupper()
+
+v) trim()
+
+---------------------------------------------------------------------------------------
+
+Q.7 Give the example of select query with WHERE cluase, AND operator and explain your query in just 2 to 3 lines. 
+
+
+---------------------------------------------------------------------------------------
+
+Q.8  Give the example of INSERT query and explain your query in just 2 to 3 lines. 
+
+
+---------------------------------------------------------------------------------------------
+
+Q.9  Give the example of DELETE query and explain your query in just 2 to 3 lines. 
+
+
+---------------------------------------------------------------------------------------------
+
+Q.10  Give the example of UPDATE query and explain your query in just 2 to 3 lines. 
+
+
+SECTION B (10 marks of each)
+------------
+
+Q.1 Write the PHP program for user login.   
+
+Q.2 Write a program to know the result of the test (Pass with GPA /Fail), and
+perform the following operations: (Note: The Total marks is 100.)
+
+if obtained marks>=90 (4.0 GPA)
+
+if obtained marks>=86 AND <=89 (3.66 GPA)
+
+if obtained marks>=79 AND <=85 (3.33 GPA)
+.
+.
+.
+if obtained marks<=50 (FAIL)
+
+
+Q3. Write a program to know what the day is today by using switch case.
+
+Q4. Write a program which takes a integer input and print the table of it. 
+
+
+
+10 x 2 (1 Choice - q 3)5
+
+5 x 6 (2 choice - q 8)10
+
+
+
+
+
